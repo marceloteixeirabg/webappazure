@@ -2,6 +2,9 @@
 <html>
 <head>
    <title>Page Title</title>
+   <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+   <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
 </head>
 <body>
 
@@ -12,5 +15,10 @@
       <li>Linux</li>
       <li>Windows</li>
    </ol>
+
+   <div class="graph">
+      <h1>X-Axis Acceleration</h1>
+      <div class='ct-chart ct-double-octave' id='accel_x_chart'> </div>
+   </div>
 </body>
 </html>
